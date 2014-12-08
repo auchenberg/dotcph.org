@@ -1,8 +1,21 @@
 /* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+margin: 0;
+padding: 0;
+color: #404040;
+font-family: "Open Sans", Helvetica, Arial;
+font-size: 16px;
+-webkit-font-smoothing: antialiased;
+
+  background: #EEE;
 }
+
+
+.container {
+    max-width: 800px;
+    text-align: left;
+}
+
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -31,19 +44,13 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
-/* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-}
 .container-narrow > hr {
   margin: 30px 0;
 }
 
 /* Main marketing message and sign up button */
 .jumbotron {
-  text-align: center;
+
   border-bottom: 1px solid #e5e5e5;
 }
 .jumbotron .btn {
