@@ -52,6 +52,10 @@ p b {
   font-weight: 500;
 }
 
+iframe {
+  border: 0;
+}
+
 .container {
   box-sizing: border-box;
   margin: 0 auto;
@@ -82,7 +86,7 @@ p b {
 .social {
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .social .fb_iframe_widget {
@@ -449,4 +453,3 @@ section.help .newsletter input[type=submit] {
   top: 0;
   width: 100%;
 }
-
