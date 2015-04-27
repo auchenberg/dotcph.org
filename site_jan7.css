@@ -94,11 +94,12 @@ iframe {
 }
 
 .parallax {
-  background-image: url(images/cph.jpg);
+  background-image: url(images/nyhavn.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 450px;
+  background-size: cover; 
+  height: 400px;
+
 }
 
 @media screen and (min-width: 1800px) {
@@ -151,11 +152,37 @@ iframe {
 }
 
 header {
-  height: 300px;
+  height: 300%;
+  height: 100vh;
   margin: 0 auto;
-  max-width: 650px;
   padding: 70px 20px 0 20px;
   text-align: center;
+  display: flex;
+  align-items: center;
+
+  position: relative;
+
+}
+
+header .text {
+  max-width: 650px;  
+  z-index: 2;
+  position: relative;
+  margin: 0 auto;
+}
+
+header .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.15;
+
+  background-image: url(images/cph.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;    
 }
 
 header h1 {
